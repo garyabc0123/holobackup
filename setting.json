@@ -1,0 +1,12 @@
+{
+  "dbpath"      : "index.db",
+  "youtubetoken": "",
+  "downloadpath": "",
+  "youtubedlpath": "youtube-dl ",
+  "path"        : "/",
+  "channel"     :[
+                  
+                  
+                  
+  ]
+}
