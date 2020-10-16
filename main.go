@@ -18,13 +18,7 @@ import (
 	"syscall"
 	"time"
 )
-//https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=UCXTpFs_3PqI41qX2d9tL2Rw&key=AIzaSyD57ADXNxQNHahPu6mRQPL0Wwl3m0cgqtU
-//https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&playlistId=UUXTpFs_3PqI41qX2d9tL2Rw&key=AIzaSyD57ADXNxQNHahPu6mRQPL0Wwl3m0cgqtU&maxResults=50
-//youtube api token : AIzaSyD57ADXNxQNHahPu6mRQPL0Wwl3m0cgqtU
-//https://www.googleapis.com/youtube/v3/liveBroadcasts?part=contentDetails&broadcastStatus=all&id=UCqm3BQLlJfvkTsX_hvm0UmA&key=AIzaSyD57ADXNxQNHahPu6mRQPL0Wwl3m0cgqtU
-//https://www.googleapis.com/youtube/v3/liveChat/messages?liveChatId=sObG4XdTtEc
-//https://www.googleapis.com/youtube/v3/activities?part=snippet%2CcontentDetails&part=id&channelId=UCqm3BQLlJfvkTsX_hvm0UmA&maxResults=25&key=AIzaSyD57ADXNxQNHahPu6mRQPL0Wwl3m0cgqtU
-//https://www.googleapis.com/youtube/v3/search?part=snippet&eventType=live&type=video&channelId=UCqm3BQLlJfvkTsX_hvm0UmA&key=AIzaSyD57ADXNxQNHahPu6mRQPL0Wwl3m0cgqtU
+
 var(
 	youtubeGetChannelAPI string = `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=`
 	youtubeGetPlaylistAPI string = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&playlistId=`
