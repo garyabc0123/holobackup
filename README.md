@@ -5,11 +5,12 @@ A tool help you backup youtube channel.
 ## function
 * scan Youtube API
 * auto download file
-* write metadata to SQLite file
+* write metadata to MariaDB
+* auto download live stream before video be delete
 
 ##### Next
 
-* auto download live stream before video be delete
+* Web GUI
 
 ## Use
 install 
@@ -19,10 +20,18 @@ install
 ```shell=
 sudo apt install golang python3 git ffmpeg
 sudo python3 pip install youtube-dl
-go get github.com/bitly/go-simplejson
-go get github.com/fatih/color
-go get github.com/mattn/go-sqlite3
-go get github.com/otiai10/copy
+go mod download
+
 ```
 and editor setting.json
 
+## update log
+
+### v0.2
+
+* SQLite -> MariaDB
+* limit download archived thread
+* record stream video
+* add go mod
+* output error log file
+* stdout simplify
