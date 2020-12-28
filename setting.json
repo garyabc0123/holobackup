@@ -5,6 +5,7 @@
   "youtubedlpath": "youtube-dl ",
   "path"        : "/",
   "log"         : "log.log",
+  "maxthread"   : 4,
   "channel"     :[
                   "UCp6993wxpyDPHUpavwDFqgg",
                   "UCDqI2jOz0weumE8s7paEk6g",
@@ -43,8 +44,9 @@
                   "UCL_qhgtOy0dy1Agp8vkySQg",
                   "UCHsx4Hqa-1ORjQTh9TYDhww",
                   "UCyl1z3jo3XHR1riLFKG5UAg",
-                  "UCJFZiqLMntJufDCHc6bQixg"
-                  
-                  
+                  "UCJFZiqLMntJufDCHc6bQixg",
+                  "UCOyYb1c43VlX9rc_lT6NKQw",
+		          "UCP0BspO_AMEe3aQqqpo89Dg",
+                  "UCAoy6rzhSf4ydcYjJw3WoVg"
   ]
 }
