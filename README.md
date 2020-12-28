@@ -21,7 +21,7 @@ install
 sudo apt install golang python3 git ffmpeg
 sudo python3 pip install youtube-dl
 go mod download
-
+make build
 ```
 and editor setting.json
 
@@ -35,3 +35,6 @@ and editor setting.json
 * add go mod
 * output error log file
 * stdout simplify
+
+### v0.2.1
+* fix 
